@@ -1,13 +1,10 @@
 require "./HttpServer/*"
-require "http/server"
+require "kemal"
 
 module HttpServer
-  server = HTTP::Server.new(8888) do |context|
-    context.response.content_type = "text/plain"
-    context.response.print "Hello World! This is a test server!"
+  get "/" do
+    "Hello World!! This is a Kemal test!"
   end
 
-  puts "Listening on 8888"
-
-  server.listen
+  Kemal.run
 end

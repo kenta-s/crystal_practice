@@ -8,6 +8,11 @@ targets:
   HttpServer:
     main: src/HttpServer.cr
 
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+
 crystal: 0.23.1
 
 license: MIT
