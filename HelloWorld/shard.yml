@@ -1,0 +1,13 @@
+name: HelloWorld
+version: 0.1.0
+
+authors:
+  - kenta-s <knt01222@gmail.com>
+
+targets:
+  HelloWorld:
+    main: src/HelloWorld.cr
+
+crystal: 0.23.1
+
+license: MIT
