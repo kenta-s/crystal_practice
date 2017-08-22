@@ -1,2 +1,2 @@
 pg:
-  database: postgres://postgres:@pg:5432/amber_practice_development
+  database: postgres://username:userpassword@localhost:5432/amber_practice_development

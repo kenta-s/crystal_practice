@@ -21,6 +21,7 @@ Amber::Server.instance.config do |app|
   end
 
   routes :web do
+    resources "/posts", PostController
     get "/", HomeController, :index
   end
 end
